@@ -44,13 +44,18 @@
   border-radius: 100%;
   background-color: #444;
   color: #fff;
-  font-size: 36px !important;
+  font-size: 28px !important;
   font-weight: bold;
 }
 
 #et-boc .et-l .latest-reviews-card .reviews .review .review-author,
 .latest-reviews-card .reviews .review .review-author {
-  font-size: 32px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+  font-size: 24px !important;
   font-weight: bold;
 }
 
@@ -114,14 +119,6 @@
   width: 32px;
   height: 32px;
   z-index: 10;
-}
-
-#et-boc .et-l .latest-reviews-card .reviews .review .review-author,
-.latest-reviews-card .reviews .review .review-author {
-  display: flex;
-  align-items: center;
-  gap: 0.25rem;
-  flex-wrap: wrap;
 }
 
 #et-boc .et-l .latest-reviews-card .reviews .review .review-author,
