@@ -51,7 +51,6 @@ class LatestReviewsCard
             <h3 class="review-author"><?= $review['authorAttribution']['displayName']; ?></h3>
             <p class="review-time"><?= $review['relativePublishTimeDescription']; ?></p>
             <p class="review-stars"><?= $this->generateStars($review['rating']); ?></p>
-            <hr style="width: 50%;">
             <p class="review-text"><?= $review['text']['text']; ?></p>
           </div>
         <?php endforeach; ?>

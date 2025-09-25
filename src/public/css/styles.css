@@ -58,6 +58,8 @@
 .latest-reviews-card .reviews .review .review-text {
   font-size: 14px;
   color: #333;
+  line-height: 1.125;
+  overflow-y: auto;
 }
 
 #et-boc .et-l .latest-reviews-card .swiper-pagination,
