@@ -155,7 +155,7 @@ class Main
         fullPath: __FILE__,
         slug: 'google-reviews-plugin',
         branch: 'master',
-        authToken: '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',
+        authToken: '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',
       )
     );
 

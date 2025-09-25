@@ -1,0 +1,1 @@
+{"code":"invalid_auth","message":"Please provide a valid basic auth file via auth.json, using your ACF PRO licence key as the username, and your site URL as the password.","data":{"status":401}}
