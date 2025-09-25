@@ -44,32 +44,32 @@
   border-radius: 100%;
   background-color: #444;
   color: #fff;
-  font-size: 36px;
+  font-size: 36px !important;
   font-weight: bold;
 }
 
 #et-boc .et-l .latest-reviews-card .reviews .review .review-author,
 .latest-reviews-card .reviews .review .review-author {
-  font-size: 32px;
+  font-size: 32px !important;
   font-weight: bold;
 }
 
 #et-boc .et-l .latest-reviews-card .reviews .review .review-time,
 .latest-reviews-card .reviews .review .review-time {
-  font-size: 14px;
+  font-size: 14px !important;
   color: #666;
 }
 
 #et-boc .et-l .latest-reviews-card .reviews .review .review-stars,
 .latest-reviews-card .reviews .review .review-stars {
-  font-size: 12px;
+  font-size: 12px !important;
   color: #666;
 }
 
 #et-boc .et-l .latest-reviews-card .reviews .review .review-text,
 .latest-reviews-card .reviews .review .review-text {
   flex: 1 1 auto;
-  font-size: 14px;
+  font-size: 14px !important;
   color: #333;
   line-height: 1.125;
   overflow-y: auto;
@@ -114,4 +114,26 @@
   width: 32px;
   height: 32px;
   z-index: 10;
+}
+
+#et-boc .et-l .latest-reviews-card .reviews .review .review-author,
+.latest-reviews-card .reviews .review .review-author {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+#et-boc .et-l .latest-reviews-card .reviews .review .review-author,
+.latest-reviews-card .reviews .review .review-author,
+#et-boc .et-l .latest-reviews-card .reviews .review .review-time,
+.latest-reviews-card .reviews .review .review-time,
+#et-boc .et-l .latest-reviews-card .reviews .review .review-stars,
+.latest-reviews-card .reviews .review .review-stars {
+  padding-bottom: 0.5rem;
+}
+
+#et-boc .et-l .latest-reviews-card .reviews .review .review-text,
+.latest-reviews-card .reviews .review .review-text {
+  padding-bottom: 0;
 }
