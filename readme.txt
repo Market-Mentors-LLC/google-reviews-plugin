@@ -4,7 +4,7 @@ Donate link: https://marketmentors.com
 Tags: google reviews, reviews, testimonials, google places, swiper, slider
 Requires at least: 6.0
 Tested up to: 6.8
-Stable tag: 1.0.0
+Stable tag: 0.0.1
 Requires PHP: 8.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -82,7 +82,7 @@ Yes, the shortcode can be used in most page builders including Gutenberg, Elemen
 
 == Changelog ==
 
-= 1.0.0 =
+= 0.0.1 =
 * Initial release
 * Google Places API integration
 * Swiper slider with navigation controls
@@ -94,5 +94,5 @@ Yes, the shortcode can be used in most page builders including Gutenberg, Elemen
 
 == Upgrade Notice ==
 
-= 1.0.0 =
+= 0.0.1 =
 Initial release of the Google Reviews Plugin. Perfect for showcasing customer testimonials and building trust with potential customers.
