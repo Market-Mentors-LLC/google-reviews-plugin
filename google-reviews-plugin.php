@@ -10,7 +10,7 @@
  * Plugin Name:       Google Reviews Plugin
  * Plugin URI:        https://marketmentors.com
  * Description:       Uses the Google Places API to display the latest reviews.
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            Market Mentors, LLC
  * Author URI:        https://marketmentors.com
  * Text Domain:       google-reviews-plugin
@@ -60,7 +60,7 @@ if (! defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('GOOGLE_REVIEWS_PLUGIN_VERSION', '0.0.1');
+define('GOOGLE_REVIEWS_PLUGIN_VERSION', '0.0.2');
 define('GOOGLE_REVIEWS_PLUGIN_FILE', __FILE__);
 define('GOOGLE_REVIEWS_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('GOOGLE_REVIEWS_PLUGIN_URL', plugin_dir_url(__FILE__));
@@ -73,7 +73,7 @@ define('MIN_WP_VERSION', '6.8.0');
  */
 if (!file_exists($composer = __DIR__ . '/vendor/autoload.php')) {
   throw new \Error(
-    'Autoloader not found. You must run <code>composer install</code> from the theme directory.',
+    'Autoloader not found. You must run <code>composer install</code> from the plugin directory.',
   );
 }
 require_once $composer;
