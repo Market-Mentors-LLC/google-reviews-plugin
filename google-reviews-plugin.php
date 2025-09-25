@@ -10,7 +10,7 @@
  * Plugin Name:       Google Reviews Plugin
  * Plugin URI:        https://marketmentors.com
  * Description:       Uses the Google Places API to display the latest reviews.
- * Version:           0.0.7
+ * Version:           0.0.8
  * Author:            Market Mentors, LLC
  * Author URI:        https://marketmentors.com
  * Text Domain:       google-reviews-plugin
@@ -58,7 +58,7 @@ if (! defined('ABSPATH')) {
   exit;
 }
 
-define('GOOGLE_REVIEWS_PLUGIN_VERSION', '0.0.7');
+define('GOOGLE_REVIEWS_PLUGIN_VERSION', '0.0.8');
 define('GOOGLE_REVIEWS_PLUGIN_FILE', __FILE__);
 define('GOOGLE_REVIEWS_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('GOOGLE_REVIEWS_PLUGIN_URL', plugin_dir_url(__FILE__));
