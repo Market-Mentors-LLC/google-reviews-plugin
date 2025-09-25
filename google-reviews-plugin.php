@@ -163,5 +163,4 @@ class Main
   }
 }
 
-// Initialize the plugin
 Main::instance();
