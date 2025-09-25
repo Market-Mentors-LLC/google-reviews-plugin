@@ -51,7 +51,7 @@ class LatestReviewsCard
             <h3 class="review-author"><?= $review['authorAttribution']['displayName']; ?></h3>
             <p class="review-time"><?= $review['relativePublishTimeDescription']; ?></p>
             <p class="review-stars"><?= $this->generateStars($review['rating']); ?></p>
-            <hr>
+            <hr style="width: 50%;">
             <p class="review-text"><?= $review['text']['text']; ?></p>
           </div>
         <?php endforeach; ?>
@@ -59,84 +59,6 @@ class LatestReviewsCard
       <div class="swiper-pagination"></div>
       <div class="swiper-button-prev"></div>
       <div class="swiper-button-next"></div>
-      <style>
-        #et-boc .et-l .latest-reviews-card {
-          position: relative;
-          width: clamp(300px, 100%, 480px);
-          height: 640px;
-          padding: 2rem;
-        }
-
-        #et-boc .et-l .latest-reviews-card .reviews .review {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 4px;
-          border-radius: 2rem;
-          padding: 2rem;
-          background-color: #fff;
-          box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
-        }
-
-        #et-boc .et-l .latest-reviews-card .reviews .review .profile-pic-first-letter {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          width: 64px;
-          height: 64px;
-          border-radius: 100%;
-          background-color: #444;
-          color: #fff;
-          font-size: 36px;
-          font-weight: bold;
-        }
-
-        #et-boc .et-l .latest-reviews-card .reviews .review .review-author {
-          font-size: 32px;
-          font-weight: bold;
-        }
-
-        #et-boc .et-l .latest-reviews-card .reviews .review .review-time {
-          font-size: 14px;
-          color: #666;
-        }
-
-        #et-boc .et-l .latest-reviews-card .reviews .review .review-stars {
-          font-size: 12px;
-          color: #666;
-        }
-
-        #et-boc .et-l .latest-reviews-card .reviews .review .review-text {
-          font-size: 14px;
-          color: #333;
-        }
-
-        #et-boc .et-l .latest-reviews-card .swiper-pagination {
-          position: absolute;
-          bottom: 20px;
-          left: 50%;
-          transform: translateX(-50%);
-          width: 100%;
-          text-align: center;
-          z-index: 10;
-        }
-
-        #et-boc .et-l .latest-reviews-card .swiper-pagination-bullet {
-          width: 8px;
-          height: 8px;
-          display: inline-block;
-          border-radius: 50%;
-          background: #666;
-          opacity: 0.5;
-          margin: 0 5px;
-        }
-
-        #et-boc .et-l .latest-reviews-card .swiper-pagination-bullet-active {
-          opacity: 1;
-          background: #000;
-        }
-      </style>
-
     </div>
 <?php
     return ob_get_clean();
