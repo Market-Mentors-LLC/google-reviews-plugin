@@ -1,0 +1,9 @@
+/vendor/
+/node_modules/
+/wp-content/
+
+auth.json
+composer.lock
+package-lock.json
+yarn.lock
+notes.md
